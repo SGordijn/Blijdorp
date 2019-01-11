@@ -6,39 +6,46 @@
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".NormalEntranceActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="@string/btnBack"
+        android:onClick="startMainActivity"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="66dp"
+        android:layout_height="55dp"
         android:gravity="center"
-        android:text="@string/toptextMain"
+        android:text="@string/toptextEntrance"
         android:textSize="24sp" />
 
     <TextView
         android:id="@+id/emptyArea1"
         android:layout_width="match_parent"
-        android:layout_height="45dp" />
+        android:layout_height="56dp" />
 
     <Button
-        android:id="@+id/btnRegular"
+        android:id="@+id/btnMainEntrance"
         android:layout_width="179dp"
         android:layout_height="wrap_content"
-        android:text="@string/btnRegular"
-        android:onClick="startNormalEntrance"/>
+        android:text="@string/btnMainEntrance" />
 
     <TextView
         android:id="@+id/emptyArea2"
         android:layout_width="match_parent"
-        android:layout_height="43dp" />
+        android:layout_height="93dp" />
 
     <Button
-        android:id="@+id/btnFood"
+        android:id="@+id/btnSideEntrance"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/btnFood"
-        android:onClick="startFoodEntrance"/>
+        android:text="@string/btnSideEntrance" />
 
     <TextView
         android:id="@+id/emptyArea3"

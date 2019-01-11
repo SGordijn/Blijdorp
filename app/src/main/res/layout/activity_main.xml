@@ -25,7 +25,8 @@
         android:id="@+id/btnRegular"
         android:layout_width="179dp"
         android:layout_height="wrap_content"
-        android:text="@string/btnRegular" />
+        android:text="@string/btnRegular"
+        android:onClick="startNormalEntrance"/>
 
     <TextView
         android:id="@+id/emptyArea2"
@@ -36,7 +37,8 @@
         android:id="@+id/btnFood"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/btnFood" />
+        android:text="@string/btnFood"
+        android:onClick="startFoodEntrance"/>
 
     <TextView
         android:id="@+id/emptyArea3"

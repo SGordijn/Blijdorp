@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Blijdorp</string>
     <string name="toptextMain">Selecteer Soort Route</string>
+    <string name="toptextEntrance">Selecteer Entree</string>
     <string name="btnRegular">Normale Routes</string>
-    <string name="btnFood">Voedingroutes</string>
+    <string name="btnFood">Voedingroutes (TBA)</string>
+    <string name="btnMainEntrance">Hoofd Ingang</string>
+    <string name="btnSideEntrance">Achter Ingang (TBA)</string>
+    <string name="btnBack">Terug</string>
 </resources>
