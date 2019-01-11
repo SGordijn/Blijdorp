@@ -12,10 +12,10 @@
         android:id="@+id/button"
         android:layout_width="74dp"
         android:layout_height="35dp"
-        android:layout_gravity="left"
+        android:layout_gravity="start"
         android:gravity="center"
         android:text="@string/btnBack"
-        android:onClick="startMainActivity"/>
+        android:onClick="startBack"/>
 
     <TextView
         android:id="@+id/textView"
@@ -34,7 +34,7 @@
         android:id="@+id/btnMainEntrance"
         android:layout_width="179dp"
         android:layout_height="wrap_content"
-        android:text="@string/btnMainEntrance" />
+        android:text="@string/btnMainEntranceFood" />
 
     <TextView
         android:id="@+id/emptyArea2"
@@ -45,7 +45,7 @@
         android:id="@+id/btnSideEntrance"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="@string/btnSideEntrance" />
+        android:text="@string/btnSideEntranceFood" />
 
     <TextView
         android:id="@+id/emptyArea3"

@@ -13,7 +13,7 @@ public class FoodEntranceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_food_entrance);
     }
 
-    public void startMainActivity(View view) {
+    public void startBack(View view) {
         Intent intentBack = new Intent(this, MainActivity.class);
         startActivity(intentBack);
     }
