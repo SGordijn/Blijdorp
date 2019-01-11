@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Blijdorp</string>
+    <string name="toptextMain">Selecteer Soort Route</string>
+    <string name="btnRegular">Normale Routes</string>
+    <string name="btnFood">Voedingroutes</string>
+</resources>

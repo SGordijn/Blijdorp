@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:gravity="center"
+        android:text="@string/toptextMain"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/emptyArea1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <Button
+        android:id="@+id/btnRegular"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRegular" />
+
+    <TextView
+        android:id="@+id/emptyArea2"
+        android:layout_width="match_parent"
+        android:layout_height="93dp" />
+
+    <Button
+        android:id="@+id/btnFood"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFood" />
+
+    <TextView
+        android:id="@+id/emptyArea3"
+        android:layout_width="match_parent"
+        android:layout_height="147dp" />
+
+</LinearLayout>
