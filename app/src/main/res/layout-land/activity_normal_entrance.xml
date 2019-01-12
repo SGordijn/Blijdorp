@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".NormalEntranceActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="@string/btnBack"
+        android:onClick="startBack"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="@string/toptextEntrance"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/emptyArea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnMainEntrance"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMainEntranceNormal"
+        android:onClick="startMainNormalTime"/>
+
+    <TextView
+        android:id="@+id/emptyArea2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSideEntrance"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSideEntranceNormal" />
+
+    <TextView
+        android:id="@+id/emptyArea3"
+        android:layout_width="match_parent"
+        android:layout_height="147dp" />
+
+</LinearLayout>

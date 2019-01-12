@@ -19,7 +19,7 @@ public class MainNormalTimeActivity extends AppCompatActivity {
     }
 
     public void startRoute0900(View view) {
-        Intent intent0900 = new Intent(this, MainActivity.class);
+        Intent intent0900 = new Intent(this, MainNormalRoute0900Activity.class);
         startActivity(intent0900);
     }
 }
