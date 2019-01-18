@@ -5,21 +5,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class FoodEntranceActivity extends AppCompatActivity {
+public class MainFoodTimeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_food_entrance);
+        setContentView(R.layout.activity_main_food_time);
     }
 
     public void startBack(View view) {
-        Intent intentBack = new Intent(this, MainActivity.class);
+        Intent intentBack = new Intent(this, FoodEntranceActivity.class);
         startActivity(intentBack);
     }
 
-    public void startFoodNormalTime(View view) {
-        Intent intent1 = new Intent(this, MainFoodTimeActivity.class);
-        startActivity(intent1);
+    public void startRoute0900(View view) {
+        Intent intent0900 = new Intent(this, MainFoodRoute0900Activity.class);
+        startActivity(intent0900);
     }
 }

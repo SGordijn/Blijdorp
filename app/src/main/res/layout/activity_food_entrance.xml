@@ -34,7 +34,8 @@
         android:id="@+id/btnMainEntrance"
         android:layout_width="179dp"
         android:layout_height="wrap_content"
-        android:text="@string/btnMainEntranceFood" />
+        android:text="@string/btnMainEntranceFood"
+        android:onClick="startFoodNormalTime"/>
 
     <TextView
         android:id="@+id/emptyArea2"

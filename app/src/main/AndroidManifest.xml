@@ -40,7 +40,11 @@
 
         <activity
             android:name=".MainNormalRoute0900Activity"
-            android:label="@string/title_activity_main_normal_route0900"></activity>
+            android:label="@string/title_activity_main_normal_route0900" />
+        <activity android:name=".MainFoodTimeActivity" />
+        <activity
+            android:name=".MainFoodRoute0900Activity"
+            android:label="@string/title_activity_main_food_route0900"></activity>
     </application>
 
 </manifest>

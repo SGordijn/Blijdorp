@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Blijdorp</string>
+    <string name="app_name">Blijdorp Route</string>
     <string name="toptextMain">Selecteer Soort Route</string>
     <string name="toptextEntrance">Selecteer Entree</string>
     <string name="toptextTime">Selecteer Start Tijd</string>
@@ -8,7 +8,7 @@
     <string name="btnFood">Voedingroutes</string>
 
     <string name="btnMainEntranceNormal">Hoofd Ingang</string>
-    <string name="btnMainEntranceFood">Hoofd Ingang (TBA)</string>
+    <string name="btnMainEntranceFood">Hoofd Ingang</string>
     <string name="btnSideEntranceNormal">Achter Ingang (TBA)</string>
     <string name="btnSideEntranceFood">Achter Ingang (TBA)</string>
 
@@ -111,4 +111,5 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main_normal_route0900">Map</string>
+    <string name="title_activity_main_food_route0900">Map</string>
 </resources>
